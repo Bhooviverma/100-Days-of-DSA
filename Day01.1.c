@@ -25,7 +25,6 @@ int main(){
     for (i = n; i >= x; i--) {
         arr[i] = arr[i - 1];
     }
-
     arr[x - 1] = a;
     n++;
 
